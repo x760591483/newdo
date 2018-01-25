@@ -1,7 +1,7 @@
 CC = g++
 INC = -I ./include
 	
-LIB = -L ./lib
+LIB = -L ./lib -lcurl
 
 OTHER = -Wall
 
